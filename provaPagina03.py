@@ -21,7 +21,7 @@ def home():
     return render_template("home.html")
 
 @app.route("/massimp")
-def salvador():
+def massimp():
     return "Hello, Massimp"
 
 if __name__ == "__main__":
